@@ -59,14 +59,29 @@ export default function About() {
             </div>
           </div>
 
-          {/* Right — Stats */}
-          <div className="about-stats reveal reveal-delay-2">
-            {STATS.map((s) => (
-              <div key={s.label} className="glass-card stat-card">
-                <span className="stat-value">{s.value}</span>
-                <span className="stat-label">{s.label}</span>
-              </div>
-            ))}
+          {/* Right — Photo + Stats */}
+          <div>
+            <div className="about-photo-wrap reveal reveal-delay-1">
+              <img
+                src="/profile.jpg"
+                alt="Shubham Sonu"
+                className="about-photo"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none'
+                  e.currentTarget.nextSibling.style.display = 'flex'
+                }}
+              />
+              <div className="about-photo-placeholder" style={{ display: 'none' }}>SS</div>
+            </div>
+
+            <div className="about-stats reveal reveal-delay-2">
+              {STATS.map((s) => (
+                <div key={s.label} className="glass-card stat-card">
+                  <span className="stat-value">{s.value}</span>
+                  <span className="stat-label">{s.label}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
