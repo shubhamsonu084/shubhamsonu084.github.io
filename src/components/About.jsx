@@ -15,7 +15,7 @@ const SKILLS = [
 
 const STATS = [
   { value: 'GMAT 740', label: '97th Percentile' },
-  { value: '5+', label: 'Years in Tech' },
+  { value: '6+', label: 'Years in Tech' },
   { value: 'IIT KGP', label: 'Top 3% of Class' },
   { value: 'Dean\'s', label: 'Merit Scholar' },
 ]
@@ -34,7 +34,7 @@ export default function About() {
             </h2>
 
             <p className="about-bio reveal reveal-delay-2">
-              MBA Candidate at{' '}
+              MBA Graduate from{' '}
               <strong>UW Foster School of Business (STEM)</strong>, passionate about
               building AI-powered products at the intersection of business and technology.
               Previously <strong>Tech Lead at TCG Digital</strong>, and interned at{' '}

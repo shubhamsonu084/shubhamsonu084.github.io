@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const ROLES = ['MBA Candidate', 'AI Builder', 'Product Thinker', 'Builder of Things']
+const ROLES = ['Foster MBA Graduate', 'AI Builder', 'Product Thinker', 'Builder of Things']
 
 // SVG icons inline to avoid external deps
 const GithubIcon = () => (
@@ -44,11 +44,6 @@ export default function Hero() {
       <div className="hero-grid">
         {/* Text side */}
         <div>
-          <div className="hero-badge">
-            <span className="hero-badge-dot" />
-            Open to opportunities · Seattle, WA
-          </div>
-
           <h1 className="hero-name">
             Shubham<br />Sonu
           </h1>
@@ -61,7 +56,7 @@ export default function Hero() {
           </div>
 
           <p className="hero-bio">
-            MBA Candidate at UW Foster (STEM) · Building AI-powered products at the
+            Foster MBA Graduate (STEM) · Building AI-powered products at the
             intersection of business &amp; technology · Ex-AWS · Ex-Microsoft ·
             IIT Kharagpur Alum.
           </p>

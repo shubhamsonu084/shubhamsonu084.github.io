@@ -2,7 +2,7 @@ const ACADEMICS = [
   {
     id: 1,
     org: 'UW Foster School of Business',
-    degree: 'MBA (STEM), Class of 2026',
+    degree: 'MBA (STEM) — Graduated 2026',
     date: '2024 – 2026',
     bullets: [
       'President — Foster Technology Club',
