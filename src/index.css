@@ -1236,6 +1236,76 @@ img {
 }
 
 /* =============================================
+   MOMENTS
+   ============================================= */
+.moments-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}
+
+/* First 3 items: 1/3 width each */
+.moment-item:nth-child(1),
+.moment-item:nth-child(2),
+.moment-item:nth-child(3) {
+  grid-column: span 2;
+}
+
+/* Last 2 items: 1/2 width each */
+.moment-item:nth-child(4),
+.moment-item:nth-child(5) {
+  grid-column: span 3;
+}
+
+.moment-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.moment-img-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-border);
+  background: var(--bg-secondary);
+}
+
+.moment-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+}
+
+.moment-item:hover .moment-img {
+  transform: scale(1.04);
+}
+
+.moment-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 2px;
+}
+
+.moment-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.moment-sub {
+  font-size: 0.77rem;
+  color: var(--text-muted);
+}
+
+/* =============================================
    RESUME
    ============================================= */
 .resume-section {
@@ -1485,6 +1555,17 @@ img {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* Tablet: moments in 2-col grid */
+  .moments-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .moment-item:nth-child(1),
+  .moment-item:nth-child(2),
+  .moment-item:nth-child(3),
+  .moment-item:nth-child(4),
+  .moment-item:nth-child(5) {
+    grid-column: span 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1506,6 +1587,16 @@ img {
   .agents-grid,
   .competitions-grid {
     grid-template-columns: 1fr;
+  }
+  .moments-grid {
+    grid-template-columns: 1fr;
+  }
+  .moment-item:nth-child(1),
+  .moment-item:nth-child(2),
+  .moment-item:nth-child(3),
+  .moment-item:nth-child(4),
+  .moment-item:nth-child(5) {
+    grid-column: span 1;
   }
   .about-stats {
     grid-template-columns: 1fr 1fr;

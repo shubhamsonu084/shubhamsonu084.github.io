@@ -8,6 +8,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import AIAgents from './components/AIAgents'
 import Competitions from './components/Competitions'
+import Moments from './components/Moments'
 import Resume from './components/Resume'
 import Schedule from './components/Schedule'
 import Contact from './components/Contact'
@@ -27,6 +28,7 @@ export default function App() {
         <Projects />
         <AIAgents />
         <Competitions />
+        <Moments />
         <Resume />
         <Schedule />
         <Contact />
