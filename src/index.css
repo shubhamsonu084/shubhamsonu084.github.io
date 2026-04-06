@@ -886,9 +886,50 @@ img {
 /* =============================================
    PROJECTS
    ============================================= */
+
+/* Filter bar */
+.projects-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.projects-filter-btn {
+  padding: 7px 18px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid var(--glass-border);
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.projects-filter-btn:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.projects-filter-btn--active {
+  background: linear-gradient(135deg, var(--accent-blue-2), var(--accent-blue));
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.3);
+}
+
+.projects-filter-btn--active:hover {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent-blue-2), var(--accent-blue));
+  border-color: transparent;
+}
+
+/* Grid */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -959,6 +1000,50 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+/* New card elements */
+.project-card--new {
+  animation: projectFadeIn 0.15s ease both;
+}
+
+@keyframes projectFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.project-metric {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  color: var(--accent-blue);
+  align-self: flex-start;
+}
+
+.project-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding: 7px 16px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid var(--accent-blue);
+  color: var(--accent-blue);
+  background: rgba(37, 99, 235, 0.06);
+  transition: var(--transition);
+  align-self: flex-start;
+}
+
+.project-link-btn:hover {
+  background: var(--accent-blue);
+  color: #fff;
+  transform: translateY(-1px);
 }
 
 /* =============================================
@@ -1396,6 +1481,12 @@ img {
   }
 }
 
+@media (max-width: 1024px) and (min-width: 769px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 70px 0;
@@ -1409,7 +1500,9 @@ img {
     height: 200px;
     font-size: 3.5rem;
   }
-  .projects-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
   .agents-grid,
   .competitions-grid {
     grid-template-columns: 1fr;
