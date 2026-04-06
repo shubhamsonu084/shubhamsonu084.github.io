@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const ROLES = ['Foster MBA Graduate', 'AI Builder', 'Product Thinker', 'Builder of Things']
+const ROLES = ['Senior PM-Technical, AWS Config', 'AI Product Builder', 'Foster MBA 2026 (STEM)']
 
 // SVG icons inline to avoid external deps
 const GithubIcon = () => (
@@ -56,9 +56,7 @@ export default function Hero() {
           </div>
 
           <p className="hero-bio">
-            Foster MBA Graduate (STEM) · Building AI-powered products at the
-            intersection of business &amp; technology · Ex-AWS · Ex-Microsoft ·
-            IIT Kharagpur Alum.
+            Senior PM-T at AWS Config · Foster MBA 2026 (STEM) · Building AI products at the intersection of engineering &amp; strategy · IIT Kharagpur · Ex-Microsoft
           </p>
 
           <div className="hero-actions">

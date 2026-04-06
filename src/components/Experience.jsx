@@ -5,9 +5,9 @@ const EXPERIENCE = [
     role: 'Senior PM-T Intern',
     date: 'Jun – Sep 2025',
     bullets: [
-      'Product management internship on a technical product team',
-      'Working at the intersection of cloud infrastructure and developer tooling',
-      'Seattle, WA',
+      'Designed AI/ML governance capability projected at $357M net revenue uplift and 60% increase in account penetration — informed by 25+ customer interviews and roundtables',
+      'Wrote full PRFAQ, technical design doc, competitive analysis across 5 governance platforms, and Figma UI mockups',
+      'Aligned 50+ stakeholders at VP level across engineering, legal, marketing, and BD — received and accepted return offer → full-time Senior PM-T starting April 2026',
     ],
   },
   {
@@ -16,21 +16,19 @@ const EXPERIENCE = [
     role: 'MBA Consultant',
     date: 'Jan – Mar 2025',
     bullets: [
-      'Consulting engagement through Foster MBA program',
-      'Delivered strategic recommendations on AI product opportunities',
-      'Redmond, WA',
+      'Led 5-iteration GPT-4 prompt engineering for BEAM email classification system across 10,000 real customer emails (4 intent categories, multiple languages)',
+      'Diagnosed misclassification failure modes via confusion matrix analysis per iteration; delivered reusable LLM prompt optimization playbook to Microsoft ML team',
     ],
   },
   {
     id: 3,
     org: 'TCG Digital',
-    role: 'Tech Lead, Machine Learning',
+    role: 'Tech Lead → Senior Product Developer',
     date: '2019 – 2024',
     bullets: [
-      'Led a team of 8 engineers building ML-powered data products for enterprise clients',
-      'Architected end-to-end data pipelines processing 10M+ records daily',
-      'Drove $2M+ in new revenue through technical solutioning and client demos',
-      'Stack: Python, AWS, Spark, TensorFlow, SQL',
+      'Defined GenAI product roadmap and led 10+ engineers to ship OpenAI-powered NLP querying on $40M enterprise analytics platform — reduced user search time by 70%, contributed to $2M+ new revenue',
+      'Achieved FedRAMP certification unblocking US government market; Kubernetes reduced client infrastructure costs by $500K; Greenplum accelerated report generation by 84%',
+      'Built one-click installer saving 64 man-hours per deployment; onboarded 3 new enterprise clients post-certification',
     ],
   },
 ]
