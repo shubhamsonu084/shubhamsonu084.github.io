@@ -21,13 +21,13 @@ const competitions = [
   },
   {
     id: 3,
-    result: 'Finalist',
-    title: 'Disney–Mattel M&A Pitch Competition',
-    organizer: 'UW Foster School of Business',
+    result: 'Winner',
+    title: 'Chorus — VC Idea Pitch',
+    organizer: 'Pioneer Square Labs',
     year: '2025',
     description:
-      'Presented a comprehensive M&A acquisition pitch for Disney acquiring Mattel, including full DCF model, synergy analysis, and integration roadmap to a panel of industry judges.',
-    icon: '🎯',
+      'Won idea pitch competition in front of venture capitalists at Pioneer Square Labs. Pitched Chorus — an AI-first algorithmic trading fund targeting mispriced contracts on prediction markets using NLP signal extraction.',
+    icon: '🏆',
   },
 ]
 

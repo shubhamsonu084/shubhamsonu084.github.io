@@ -11,11 +11,11 @@ const agents = [
   },
   {
     id: 2,
-    title: 'More Agents Coming Soon…',
+    title: 'Agentic Inventory Restock System',
     description:
-      'New AI agents in development — spanning autonomous research, meeting prep, competitive intelligence, and financial analysis. Watch this space.',
-    tags: ['Coming Soon'],
-    status: 'soon',
+      'A fully agentic Claude-powered system equipped with 3 custom tools — check_inventory(), calculate_stockout_risk(), and generate_purchase_order(). Autonomously triggered 7 purchase orders via 31 tool calls in one run, protecting 80% of $264K in at-risk revenue. Zero hard-coded routing rules — pure AI reasoning throughout.',
+    tags: ['Claude API', 'Agentic AI', 'Python'],
+    status: 'live',
     github: null,
     demo: null,
   },
