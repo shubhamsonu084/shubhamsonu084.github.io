@@ -6,8 +6,8 @@ const agents = [
       'An agentic workflow powered by Claude API. User fills a short intake form and the agent autonomously researches context, structures sections, and outputs a polished business proposal ready for review.',
     tags: ['Claude API', 'Agentic AI', 'React', 'Python'],
     status: 'live',
-    github: 'https://github.com/shubhamsonu084',
-    demo: null,
+    github: null,
+    demo: { url: 'https://proposal-generator-delta-black.vercel.app', label: 'Live Demo' },
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const agents = [
     tags: ['Claude API', 'Agentic AI', 'Python'],
     status: 'live',
     github: null,
-    demo: null,
+    demo: { url: 'https://colab.research.google.com/drive/1qLzfAMFY4CovNLSJLbqiSbGS0GALOym5?usp=sharing', label: 'View Notebook' },
   },
 ]
 
