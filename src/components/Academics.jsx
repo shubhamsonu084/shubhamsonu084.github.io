@@ -19,7 +19,6 @@ const ACADEMICS = [
     bullets: [
       'Top 3% of graduating class',
       'Student President 2017–18',
-      'Department: Mechanical Engineering',
       'Kharagpur, India',
     ],
   },

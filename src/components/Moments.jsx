@@ -4,7 +4,7 @@ const MOMENTS = [
     src: '/moment-aws.JPG',
     label: 'Amazon Web Services · Seattle, WA',
     caption: 'First week as Senior PM-T, AWS Config',
-    objectPosition: 'center 70%',
+    objectPosition: 'center 25%',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const MOMENTS = [
     src: '/moment-ms.PNG',
     label: 'Microsoft · Redmond, WA',
     caption: 'MBA Product Consulting Project with Microsoft',
-    objectPosition: 'center top',
+    objectPosition: 'center 80%',
   },
   {
     id: 5,
