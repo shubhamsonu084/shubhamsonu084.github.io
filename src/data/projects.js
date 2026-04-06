@@ -38,7 +38,7 @@ const projects = [
     description:
       'Fully agentic Claude-powered system that autonomously triggered 7 purchase orders via 31 tool calls in one run — zero hard-coded routing rules, pure AI reasoning across 20 SKUs.',
     tags: ['Claude API', 'Python', 'Agentic AI'],
-    link: null,
+    link: { url: 'https://colab.research.google.com/drive/1qLzfAMFY4CovNLSJLbqiSbGS0GALOym5?usp=sharing', label: 'View Notebook' },
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const projects = [
     description:
       'Random Forest classifier (200 trees, TF-IDF 300 features) that assigns priority to support tickets in milliseconds. Tested on 78 unseen tickets — 100% test accuracy, first-response time reduced from 8 min to under 1 min.',
     tags: ['Python', 'Random Forest', 'scikit-learn'],
-    link: null,
+    link: { url: 'https://colab.research.google.com/drive/1UwUZmDubFUirvokj4G-vCSO4gpvC-KLe?usp=sharing', label: 'View Notebook' },
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ const projects = [
     description:
       'Automated HR screening engine with 100% label consistency across 50 candidates and 5 roles — includes bias audit framework and ATS integration design for Workday/Greenhouse.',
     tags: ['Python', 'Rules Engine', 'HR Ops'],
-    link: null,
+    link: { url: 'https://colab.research.google.com/drive/15xSXwGuR9_O204Vv34NnWjVxgnYi7utr?usp=sharing', label: 'View Notebook' },
   },
   {
     id: 8,
